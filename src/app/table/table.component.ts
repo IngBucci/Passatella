@@ -7,7 +7,6 @@ import { CommonModule } from '@angular/common';
 interface Player {
   code: string;
   name: string;
-  active: boolean;
 }
 
 @Component({
@@ -25,17 +24,18 @@ export class TableComponent {
   tableArrangement: Player[] = [];
 
   allPlayers = [
-    {code: 'Player1', name: 'Bucci', active: true},
-    {code: 'Player2', name: 'Scarabeo', active: true},
-    {code: 'Player3', name: 'Cicci', active: true},
-    {code: 'Player4', name: 'Zullo', active: true},
-    {code: 'Player5', name: 'Melone', active: true},
-    {code: 'Player6', name: 'Celentano', active: true},
-    {code: 'Player7', name: 'Manuel', active: true},
-    {code: 'Player8', name: 'Cozzoni', active: true},
-    {code: 'Player9', name: 'Gianni', active: false},
-    {code: 'Player10', name: 'Seghetto', active: false},
-    {code: 'Player11', name: 'Seghettino', active: false},
+    {code: 'Player1', name: 'Bucci'},
+    {code: 'Player2', name: 'Scarabeo'},
+    {code: 'Player3', name: 'Cicci'},
+    {code: 'Player4', name: 'Zullo'},
+    {code: 'Player5', name: 'Melone'},
+    {code: 'Player6', name: 'Cele'},
+    {code: 'Player7', name: 'Manuel'},
+    {code: 'Player8', name: 'Daus'},
+    {code: 'Player9', name: 'Gianni'},
+    {code: 'Player10', name: 'Seghetto'},
+    {code: 'Player11', name: 'Seghettino'},
+    {code: 'Player12', name: 'Cozzoni'},
   ];
 
   constructor() { }
